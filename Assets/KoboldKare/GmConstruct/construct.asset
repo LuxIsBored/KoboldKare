@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d8b31fed2d00044a1e90b25e9af60a, type: 3}
+  m_Name: construct
+  m_EditorClassIdentifier: 
+  title: kk_construct
+  preview: {fileID: 21300000, guid: e5154541caa3db148a7b80fee8cf3a13, type: 3}
+  description: gm_construct but better?
+  unityScene:
+    m_AssetGUID: 8350e22cb43d4e840b56c0b7daa91300
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+    name: construct
