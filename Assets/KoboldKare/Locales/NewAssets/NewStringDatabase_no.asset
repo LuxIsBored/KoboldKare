@@ -206,9 +206,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 516095004691
-    m_Localized: "DETTE SPILLET skildrer FIKTIONELLE KARAKTER SOM DELTAR I <#FF0000>
-      SEKSUELL EKSPLISITT OPPLYSNING <#FFFFFF>\n\nVED \xC5 KLIKKE P\xC5 <#008CFF>
-      SPILL <#FFFFFF> OPPR\xC6RER DU AT:"
+    m_Localized: '#NAME?'
     m_Metadata:
       m_Items: []
   - m_Id: 516095004692
@@ -440,7 +438,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 516099199007
-    m_Localized: Blusset heste
+    m_Localized: Flared Equine
     m_Metadata:
       m_Items: []
   - m_Id: 516099199008
@@ -761,7 +759,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 198589332866695171
-    m_Localized: "Fyll en kobold med cum til de ikke kan ta lenger, jeg m\xE5 se
+    m_Localized: "Fyll en kobold med kum til de ikke kan ta lenger, jeg m\xE5 se
       hvor holdbart ditt slag egentlig er."
     m_Metadata:
       m_Items: []
@@ -1042,7 +1040,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 214537223052775427
-    m_Localized: Uansett bare eh .. hjelp deg selv antar jeg.
+    m_Localized: "Uansett bare \xE5h .. hjelp deg selv antar jeg."
     m_Metadata:
       m_Items: []
   - m_Id: 214537223052775428
@@ -1271,7 +1269,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 228010423070457856
-    m_Localized: Bevegelsessyke reduserende
+    m_Localized: Bevegelsessyke reduserer
     m_Metadata:
       m_Items: []
   - m_Id: 231982103588818944
@@ -1397,6 +1395,15 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 295755658549579776
     m_Localized: Trykk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342423402432045056
+    m_Localized: Mod Loading mislyktes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342423402461405184
+    m_Localized: "Det var et unntak som lastet en mod, dette kan \xF8delegge spillet.
+      Vennligst dobbeltsjekk modene dine."
     m_Metadata:
       m_Items: []
   references:

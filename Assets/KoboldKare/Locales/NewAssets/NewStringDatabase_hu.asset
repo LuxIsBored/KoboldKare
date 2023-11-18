@@ -880,8 +880,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 211626638837338112
-    m_Localized: "Klubos p\xE9nisz, puha h\xFAsos r\xE1csokkal \xE9s alacsony f\xFCgg\u0151
-      goly\xF3kkal."
+    m_Localized: "Klubos p\xE9nisz, puha h\xFAsos g\xF6mb\xF6kkel \xE9s alacsony
+      f\xFCgg\u0151 goly\xF3kkal."
     m_Metadata:
       m_Items: []
   - m_Id: 211654220131651584
@@ -1007,7 +1007,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 213767567815790592
-    m_Localized: "Tudjon meg t\xF6bbet a Kobolds val\xF3s\xE1gh\u0171 hajl\xEDt\xF3
+    m_Localized: "Tudjon meg t\xF6bbet a Kobolds val\xF3s\xE1gh\u0171-hajl\xEDt\xF3
       rugalmass\xE1g\xE1r\xF3l, baszd meg egy koboldot, amelynek teste nagyobb."
     m_Metadata:
       m_Items: []
@@ -1413,6 +1413,15 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 295755658549579776
     m_Localized: Koppintson a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342423402432045056
+    m_Localized: "A mod bet\xF6lt\xE9se sikertelen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342423402461405184
+    m_Localized: "Volt egy kiv\xE9tel egy mod bet\xF6lt\xE9se, ez megszak\xEDthatja
+      a j\xE1t\xE9kot. K\xE9rj\xFCk, ellen\u0151rizze dupl\xE1n a modokat."
     m_Metadata:
       m_Items: []
   references:

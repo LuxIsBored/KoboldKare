@@ -137,7 +137,21 @@ public class KoboldGenes {
         }
         return (byte)penises.IndexOf(selectedPenis);
     }
-    
+    private byte GetDickIndex(string name){
+        var penisDatabase = GameManager.GetPenisDatabase();
+        var dicks = penisDatabase.GetValidPrefabReferenceInfos();
+        foreach (var info in dicks) {
+            if (name.Contains(info.GetKey())) {
+                return (byte)dicks.IndexOf(info);
+            }
+        }
+        return GetRandomDick();// Get random dick if can't find the correct one
+    }
+    private string GetDickName(byte id){
+        var penisDatabase = GameManager.GetPenisDatabase();
+        var dicks = penisDatabase.GetValidPrefabReferenceInfos();
+        return dicks[id].GetKey();
+    }
     private byte GetPlayerIndex(string name) {
         var playerDatabase = GameManager.GetPlayerDatabase();
         var players = playerDatabase.GetValidPrefabReferenceInfos();
@@ -147,6 +161,12 @@ public class KoboldGenes {
             }
         }
         return 0;
+    }
+
+    private string GetPlayerName(byte id){
+        var playerDatabase = GameManager.GetPlayerDatabase();
+        var players = playerDatabase.GetValidPrefabReferenceInfos();
+        return players[id].GetKey();
     }
 
     public KoboldGenes Randomize(string koboldName=null, float meanMultiplier=1f, float standardDeviationMultiplier=1f) {
@@ -279,9 +299,10 @@ public class KoboldGenes {
         rootNode["hue"] = (int)hue;
         rootNode["brightness"] = (int)brightness;
         rootNode["saturation"] = (int)saturation;
-        rootNode["dickEquip"] = (int)dickEquip;
+        rootNode["dickEquip"] = dickEquip==byte.MaxValue?"None":GetDickName(dickEquip);
         rootNode["grabCount"] = (int)grabCount;
         rootNode["dickThickness"] = dickThickness;
+        rootNode["species"] = GetPlayerName(species);
         node[key] = rootNode;
     }
 
@@ -298,8 +319,9 @@ public class KoboldGenes {
         hue = (byte)rootNode["hue"].AsInt;
         brightness = (byte)rootNode["brightness"].AsInt;
         saturation = (byte)rootNode["saturation"].AsInt;
-        dickEquip = (byte)rootNode["dickEquip"].AsInt;
+        dickEquip = rootNode["dickEquip"]=="None"? byte.MaxValue: (byte)GetDickIndex(rootNode["dickEquip"]);
         grabCount = (byte)rootNode["grabCount"].AsInt;
+        species = (byte)GetPlayerIndex(rootNode["species"]);
         dickThickness = rootNode["dickThickness"];
     }
 

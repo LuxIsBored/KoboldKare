@@ -20,7 +20,7 @@ MonoBehaviour:
     - rid: 1602997996487704588
   m_TableData:
   - m_Id: 13688688640
-    m_Localized: Giocare a
+    m_Localized: Gioca
     m_Metadata:
       m_Items: []
   - m_Id: 516057255936
@@ -437,7 +437,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 516099199005
-    m_Localized: Equino acampanado
+    m_Localized: Equino
     m_Metadata:
       m_Items: []
   - m_Id: 516099199006
@@ -1218,7 +1218,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 216462783215620100
-    m_Localized: 'Razza: Tummy Time!'
+    m_Localized: 'Razza: tempo di pancia!'
     m_Metadata:
       m_Items: []
   - m_Id: 216462783215620101
@@ -1403,6 +1403,15 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 295755658549579776
     m_Localized: Rubinetto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342423402432045056
+    m_Localized: "Il caricamento MOD non \xE8 riuscito!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342423402461405184
+    m_Localized: "C'\xE8 stata un'eccezione che ha caricato una mod, questo potrebbe
+      rompere il gioco. Si prega di ricontrollare le mod."
     m_Metadata:
       m_Items: []
   references:

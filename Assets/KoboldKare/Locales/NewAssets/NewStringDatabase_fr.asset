@@ -1308,7 +1308,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 254924482138284033
-    m_Localized: Bite
+    m_Localized: Dick-shrink
     m_Metadata:
       m_Items: []
   - m_Id: 258142671894794240
@@ -1382,7 +1382,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 279836570866360320
-    m_Localized: "P\xE9nis activ\xE9"
+    m_Localized: "P\xE9nis activ\xE9s"
     m_Metadata:
       m_Items: []
   - m_Id: 279836570866360321
@@ -1402,6 +1402,15 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 295755658549579776
     m_Localized: Robinet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342423402432045056
+    m_Localized: "Le chargement du mod a \xE9chou\xE9!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342423402461405184
+    m_Localized: "Il y avait une exception charg\xE9e d'un mod, cela pourrait briser
+      le jeu. Veuillez v\xE9rifier vos mods."
     m_Metadata:
       m_Items: []
   references:

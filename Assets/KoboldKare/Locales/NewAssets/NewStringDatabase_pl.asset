@@ -569,7 +569,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 35594366247030784
-    m_Localized: Brilells sutki
+    m_Localized: "Bril\xF3wki sutkowe"
     m_Metadata:
       m_Items: []
   - m_Id: 35653807596163072
@@ -612,7 +612,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 39595891181015040
-    m_Localized: Kutak Kandi
+    m_Localized: Kutas Kandi
     m_Metadata:
       m_Items: []
   - m_Id: 40936863676551168
@@ -790,8 +790,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 198589332866695175
-    m_Localized: "W naszym najlepszym interesie jest posiadanie kilku super\xF3wek
-      Kobold\xF3w, ugotowanie niekt\xF3rych i wys\u0142anie ich do mnie."
+    m_Localized: "W naszym najlepszym interesie jest posiadanie kilku supersztycznych
+      kobold\xF3w, ugotowanie niekt\xF3rych i wys\u0142anie ich do mnie."
     m_Metadata:
       m_Items: []
   - m_Id: 198589332866695176
@@ -820,7 +820,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 202998194956193792
-    m_Localized: Dostosuj poziom kucaki
+    m_Localized: Dostosuj poziom Crouch
     m_Metadata:
       m_Items: []
   - m_Id: 209952603934085120
@@ -980,7 +980,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 213551810376945666
-    m_Localized: "Kup Swapper Body z pe\u0142zania w jaskini."
+    m_Localized: Kup Swapper Body From the Creep in the Cave.
     m_Metadata:
       m_Items: []
   - m_Id: 213551810376945667
@@ -1085,7 +1085,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 215233885836464139
     m_Localized: "Aha nie by\u0142oby tak zabawne, gdyby\u015B w\u0142o\u017Cy\u0142
-      4 wibratory w usta Kobolda ... rozkazuj\u0119 ci to zrobi\u0107."
+      4 dildo w usta Kobolda ... rozkazuj\u0119 ci to zrobi\u0107."
     m_Metadata:
       m_Items: []
   - m_Id: 215233885836464140
@@ -1161,7 +1161,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 215233885836464128
-    m_Localized: "Zrobi\u0119 to, oczywi\u015Bcie za cen\u0119 ..."
+    m_Localized: "Zrobi\u0119 to, oczywi\u015Bcie w cenie ..."
     m_Metadata:
       m_Items: []
   - m_Id: 215233885836464129
@@ -1204,7 +1204,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 215247205985472512
-    m_Localized: "Menu g\u0142\xF3wne bezpieczne dla pracy"
+    m_Localized: "Menu g\u0142\xF3wne dla bezpiecznego dla pracy"
     m_Metadata:
       m_Items: []
   - m_Id: 216462783215620096
@@ -1413,6 +1413,15 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 295755658549579776
     m_Localized: "Uzyskiwa\u0107"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342423402432045056
+    m_Localized: "\u0141adowanie mod\xF3w nie powiod\u0142o si\u0119!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 342423402461405184
+    m_Localized: "By\u0142 wyj\u0105tek \u0142aduj\u0105cy mod, mo\u017Ce to przerwa\u0107
+      gr\u0119. Sprawd\u017A dwukrotnie mody."
     m_Metadata:
       m_Items: []
   references:

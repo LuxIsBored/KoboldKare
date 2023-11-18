@@ -21,6 +21,18 @@ public class PrefabPostProcessor : ModPostProcessor {
     }
     
     private void LoadPrefab(GameObject obj) {
+        if (obj == null) {
+            return;
+        }
+
+        addedGameObjects ??= new List<GameObject>();
+
+        for (int i = 0; i < addedGameObjects.Count; i++) {
+            if (addedGameObjects[i] == null) {
+                addedGameObjects.RemoveAt(i--);
+            }
+        }
+
         for (int i = 0; i < addedGameObjects.Count; i++) {
             if (addedGameObjects[i].name != obj.name) continue;
             if (networkedPrefabs) {
